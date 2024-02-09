@@ -1,0 +1,38 @@
+{
+    "name": "welcomify",
+    "description": "Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.",
+    "version": "1.0.0",
+    "main": "build/index.js",
+    "types": "build/index.d.ts",
+    "files": [
+      "build"
+    ],
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "welcome-card",
+      "welcome-canvas",
+      "canvas",
+      "welcomify",
+      "greeting",
+      "discord-canvas",
+      "discord.js"
+    ],
+    "dependencies": {
+      "@napi-rs/canvas": "^0.1.44"
+    },
+    "devDependencies": {
+      "@types/node": "^20.4.5",
+      "typescript": "^5.1.6"
+    },
+    "license": "GPL-3.0",
+    "author": "Shiorii",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/Shiioriii/Welcomify.git"
+    },
+    "bugs": {
+      "url": "https://github.com/Shiioriii/Welcomify/issues"
+    }
+  }
