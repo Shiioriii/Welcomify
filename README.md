@@ -52,7 +52,7 @@ npm i welcomify
     console.log("Done");
 })()
 ```
-#### Example For DiscordJs Bot Used
+#### Example For Discord.js Bot Used
 ```javascript
 // Importing modules
 const { Card } = require("welcomify");
