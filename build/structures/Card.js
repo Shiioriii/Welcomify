@@ -13,9 +13,9 @@ GlobalFonts.registerFromPath(
 );
 
 const defaultAssets = {
-  background: "https://s6.imgcdn.dev/ZqH2S.png",
-  shadow: "https://s6.imgcdn.dev/Zqmpi.png",
-  gradient: "https://s6.imgcdn.dev/ZqFsH.png",
+  background: "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg",
+  shadow: "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/shadowbg.png",
+  gradient: "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/gradient.png",
 };
 
 class Card {
