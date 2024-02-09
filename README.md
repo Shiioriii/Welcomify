@@ -36,7 +36,7 @@ npm i welcomify
     const fs = require("fs")
 
     // Card details here
-    const card = new welcomeCard()
+    const card = new Card()
         .setName("Shiorii")
         .setAvatar("https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png")
         .setMessage("YOU ARE 300 MEMBERS!")
@@ -55,13 +55,13 @@ npm i welcomify
 #### Example For DiscordJs Bot Used
 ```javascript
 // Importing modules
-const { welcomeCard } = require("greetify");
+const { Card } = require("welcomify");
 const { AttachmentBuilder } = require("discord.js")
 
 // Make sure to define client
 client.on('guildMemberAdd', async (member) => {
     // Card details here
-    const card = new welcomeCard()
+    const card = new Card()
         .setName("Shiorii")
         .setAvatar("https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png")
         .setMessage("YOU ARE 300 MEMBER!")
