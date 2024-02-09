@@ -38,9 +38,9 @@ npm i welcomify
     // Card details here
     const card = new welcomeCard()
         .setName("Shiorii")
-        .setAvatar("https://s6.imgcdn.dev/ZFQlq.png")
+        .setAvatar("https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png")
         .setMessage("YOU ARE 300 MEMBERS!")
-        .setBackground("https://s6.imgcdn.dev/ZqH2S.png")
+        .setBackground("https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg")
         .setColor("00FF38") // without #
         .setTitle("Welcome")
 
@@ -63,9 +63,9 @@ client.on('guildMemberAdd', async (member) => {
     // Card details here
     const card = new welcomeCard()
         .setName("Shiorii")
-        .setAvatar("https://s6.imgcdn.dev/ZFQlq.png")
-        .setMessage("YOU ARE 688 MEMBER")
-        .setBackground("https://s6.imgcdn.dev/ZqH2S.png")
+        .setAvatar("https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png")
+        .setMessage("YOU ARE 300 MEMBER!")
+        .setBackground("https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg")
         .setColor("00FF38") // without #
         .setTitle("Welcome")
 
