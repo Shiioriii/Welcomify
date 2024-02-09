@@ -1,5 +1,5 @@
 <h1 align="center">Welcomify</h1>
-<h4 align="center"> Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.</h4>
+<h4 align="center">Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.</h4>
 <div align="center">
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
