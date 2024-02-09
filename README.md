@@ -2,7 +2,7 @@
 <h4 align="center">Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.</h4>
 <div align="center">
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000?style=flat-square" />
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000?style=flat-square" />
   <a href="https://github.com/Shiioriii/Welcomify#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=flat-square" />
   </a>
