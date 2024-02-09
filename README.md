@@ -56,10 +56,10 @@ npm i welcomify
     .setTitle("Welcome");
 
   // Building process
-  const output = await card.build();
+  const cardoutput = await card.build();
 
   // Save as image
-  fs.writeFileSync("card.png", output);
+  fs.writeFileSync("cardout.png", cardoutput);
   console.log("Done");
 })();
 ```
@@ -87,7 +87,7 @@ client.on("guildMemberAdd", async (member) => {
     .setTitle("Welcome");
 
   // Building process
-  const output = await card.build();
+  const cardoutput = await card.build();
 
   // Fetch channel from members guild using ID
   const channel = member.guild.channels.cache.get("0000000000000000000");
@@ -96,7 +96,7 @@ client.on("guildMemberAdd", async (member) => {
   await channel.send({
     files: [
       {
-        attachment: output,
+        attachment: cardoutput,
         name: `${member.id}.png`,
       },
     ],
