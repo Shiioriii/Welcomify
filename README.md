@@ -49,7 +49,7 @@ npm i welcomify
       "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png"
     )
     .setMessage("YOU ARE 300 MEMBERS!")
-    .setBackground(background) //you can also use .setBackground("your bg url")
+    .setBackground('https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg')
     .setColor("00FF38") // without #
     .setTitle("Welcome");
 
@@ -78,7 +78,7 @@ client.on("guildMemberAdd", async (member) => {
       "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png"
     )
     .setMessage("YOU ARE 300 MEMBER!")
-    .setBackground(background) //you can also use .setBackground("your bg url")
+    .setBackground('https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg')
     .setColor("00FF38") // without #
     .setTitle("Welcome");
 
