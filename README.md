@@ -94,11 +94,11 @@ client.on("guildMemberAdd", async (member) => {
 });
 ```
 ### Output
-<img src="/image/output.png" alt="Sample Welcome Message" width="400x" height="230px">
+<img src="/image/output.png" alt="Sample Welcome Message" width="400x" height="190px">
 
 ### Methods
 
-<img src="/image/illustration.png" alt="Sample Welcome Message" width="400x" height="230px">
+<img src="/image/illustration.png" alt="Sample Welcome Message" width="400x" height="190px">
 
 
 1.  **`.setTitle(title: string) (optional)`**
