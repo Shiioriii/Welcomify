@@ -69,7 +69,7 @@ const { AttachmentBuilder } = require("discord.js");
 client.on("guildMemberAdd", async (member) => {
   // Card details here
   const card = new Card()
-    .setName("Shiorii")
+    .setName("Remii")
     .setAvatar(
       "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png"
     )
