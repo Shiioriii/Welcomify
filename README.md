@@ -40,14 +40,14 @@ npm i welcomify
 
   // Card details here
   const card = new Card()
+    .setTitle("Welcome")
     .setName("Remii")
     .setAvatar(
       "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png"
     )
     .setMessage("YOU ARE 300 MEMBERS!")
     .setBackground('https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg')
-    .setColor("00FF38") // without #
-    .setTitle("Welcome");
+    .setColor("00FF38"); // without #
 
   // Building process
   const cardoutput = await card.build();
@@ -69,14 +69,14 @@ const { AttachmentBuilder } = require("discord.js");
 client.on("guildMemberAdd", async (member) => {
   // Card details here
   const card = new Card()
+    .setTitle("Welcome")
     .setName("Remii")
     .setAvatar(
       "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png"
     )
     .setMessage("YOU ARE 300 MEMBER!")
     .setBackground('https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg')
-    .setColor("00FF38") // without #
-    .setTitle("Welcome");
+    .setColor("00FF38"); // without #
 
   // Building process
   const cardoutput = await card.build();
