@@ -2,7 +2,6 @@
 <h4 align="center">Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.</h4>
 <div align="center">
 <p>
-  <img alt="Version" src="https://img.shields.io/badge/version-1.0.2-blue.svg?cacheSeconds=2592000?style=flat-square" />
   <a href="https://github.com/Shiioriii/Welcomify#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=flat-square" />
   </a>
@@ -11,9 +10,6 @@
   </a>
   <a href="(https://github.com/Shiioriii/Welcomify/blob/main/LICENSE" target="_blank">
     <img alt="License: GPL--3.0" src="https://img.shields.io/github/license/Shiioriii/Welcomify?style=flat-square" />
-  </a>
-  <a href="https://twitter.com/shioriikwkmi" target="_blank">
-    <img alt="Twitter: shioriikwkmi" src="https://img.shields.io/twitter/follow/shioriikwkmi.svg?style=social" />
   </a>
   <a href="https://npmjs.org/package/welcomify" target="_blank">
   <img alt="NPM Version" src="https://img.shields.io/npm/v/welcomify?style=flat-square&logo=npm" />
@@ -44,7 +40,7 @@ npm i welcomify
 
   // Card details here
   const card = new Card()
-    .setName("Shiorii")
+    .setName("Remii")
     .setAvatar(
       "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png"
     )
@@ -102,25 +98,25 @@ client.on("guildMemberAdd", async (member) => {
 
 ## Author
 
-👤 **Shiorii**
+👤 **Remii**
 
 - Website: https://fypmoon.org
 - Twitter: [@shioriikwkmi](https://twitter.com/shioriikwkmi)
-- Github: [@Shiioriii](https://github.com/Shiioriii)
+- Github: [@oneofremii](https://github.com/oneofremii)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/Shiioriii/Welcomify/issues). You can also take a look at the [contributing guide](https://github.com/Shiioriii/Welcomify/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/oneofremii/Welcomify/issues). You can also take a look at the [contributing guide](https://github.com/oneofremii/Welcomify/blob/master/CONTRIBUTING.md).
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-<a href="https://www.patreon.com/shiorii">
+<a href="https://www.patreon.com/oneofremii">
   <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
 </a>
 
 ## 📝 License
 
-Copyright © 2024 [Shiorii](https://github.com/Shiioriii).<br />
-This project is [GPL-3.0](https://github.com/Shiioriii/Welcomify/blob/main/LICENSE) licensed.
+Copyright © 2024 [Remii](https://github.com/oneofremii).<br />
+This project is [GPL-3.0](https://github.com/oneofremii/Welcomify/blob/main/LICENSE) licensed.
