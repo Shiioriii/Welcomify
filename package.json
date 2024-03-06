@@ -1,7 +1,7 @@
 {
     "name": "welcomify",
-    "description": "Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.",
-    "version": "1.0.4-testsecurity",
+    "description": "a cutting-edge canvas library for creating futuristic welcome cards.",
+    "version": "1.0.5",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "files": [
@@ -27,7 +27,7 @@
         "typescript": "^5.1.6"
     },
     "license": "GPL-3.0",
-    "author": "Shiorii",
+    "author": "oneofremii",
     "repository": {
         "type": "git",
         "url": "https://github.com/oneofremii/Welcomify.git"
