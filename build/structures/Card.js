@@ -112,6 +112,7 @@ class Card {
         ctx.drawImage(image, imageX, imageY, imageWidth, imageHeight);
       });
 
+      /*
       const svgString = `
   <svg width="1280" height="538" viewBox="0 0 1280 538" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path d="M0 0H1280V229.5C1280 399.88 1141.88 538 971.5 538H308.5C138.12 538 0 399.88 0 229.5V0Z" fill="#${this.color}" fill-opacity="0.2" />
@@ -126,6 +127,8 @@ class Card {
       await loadImage(dataUri).then((image) => {
         ctx.drawImage(image, 0, 0, 1280, 538);
       });
+      */
+     
     });
 
     // NAME OF USER
