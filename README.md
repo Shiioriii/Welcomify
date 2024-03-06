@@ -1,15 +1,15 @@
 <h1 align="center">Welcomify</h1>
-<h4 align="center">Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.</h4>
+<h4 align="center">a cutting-edge canvas library for creating futuristic welcome cards.</h4>
 <div align="center">
 <p>
-  <a href="https://github.com/Shiioriii/Welcomify#readme" target="_blank">
+  <a href="https://github.com/oneofremii/Welcomify#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg?style=flat-square" />
   </a>
-  <a href="https://github.com/Shiioriii/Welcomify/graphs/commit-activity" target="_blank">
+  <a href="https://github.com/oneofremii/Welcomify/graphs/commit-activity" target="_blank">
     <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square" />
   </a>
-  <a href="(https://github.com/Shiioriii/Welcomify/blob/main/LICENSE" target="_blank">
-    <img alt="License: GPL--3.0" src="https://img.shields.io/github/license/Shiioriii/Welcomify?style=flat-square" />
+  <a href="(https://github.com/oneofremii/Welcomify/blob/main/LICENSE" target="_blank">
+    <img alt="License: GPL--3.0" src="https://img.shields.io/github/license/oneofremii/Welcomify?style=flat-square" />
   </a>
   <a href="https://npmjs.org/package/welcomify" target="_blank">
   <img alt="NPM Version" src="https://img.shields.io/npm/v/welcomify?style=flat-square&logo=npm" />
@@ -70,12 +70,10 @@ client.on("guildMemberAdd", async (member) => {
   // Card details here
   const card = new Card()
     .setTitle("Welcome")
-    .setName("Remii")
-    .setAvatar(
-      "https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/avatar.png"
-    )
+    .setName(member.user.username)
+    .setAvatar(member.user.displayAvatarURL({ format: 'png', dynamic: true }))
     .setMessage("YOU ARE 300 MEMBER!")
-    .setBackground('https://raw.githubusercontent.com/Shiioriii/Welcomify/main/assets/background.jpg')
+    .setBackground('https://raw.githubusercontent.com/oneofremii/Welcomify/main/assets/background.jpg')
     .setColor("00FF38"); // without #
 
   // Building process
@@ -95,6 +93,33 @@ client.on("guildMemberAdd", async (member) => {
   });
 });
 ```
+### Output
+<img src="/image/output.png" alt="Sample Welcome Message" width="400x" height="230px">
+
+### Methods
+
+<img src="/image/illustration.png" alt="Sample Welcome Message" width="400x" height="230px">
+
+
+1.  **`.setTitle(title: string) (optional)`**
+    - Sets the title of the welcome card.
+
+2.  **`.setName(username: string) (optional)`**
+    - Dynamically fetches the username into the welcome card.
+
+3.  **`.setAvatar(avatarURL: string) (required)`**
+    - Sets the display avatar in the welcome card.
+
+4.  **`.setMessage(message: string) (optional)`**
+    - Specifies a custom message into welcome card.
+
+5.  **`.setBackground(backgroundURL: string) (optional)`**
+    - Sets a custom background image for the welcome card.
+
+6.  **`.setColor(colorCode: string) (optional)`**
+    - Defines the color scheme of the `.setName`, use the format without the # symbol.
+
+
 
 ## Author
 
