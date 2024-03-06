@@ -1,7 +1,7 @@
 {
     "name": "welcomify",
     "description": "Transform greetings into art with Welcomify, a cutting-edge canvas library for crafting futuristic welcome cards.",
-    "version": "1.0.4-test",
+    "version": "1.0.4-testsecurity",
     "main": "build/index.js",
     "types": "build/index.d.ts",
     "files": [
