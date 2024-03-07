@@ -1,20 +1,3 @@
-<style>
-  @font-face {
-    font-family: 'Montserrat-Black';
-    src: url('./build/structures/font/Montserrat-Black.ttf') format('truetype');
-    /* You can add other font formats like woff, woff2 for better browser compatibility */
-  }
-
-  div {
-    text-align: center;
-  }
-
-  h1 {
-    font-family: 'Montserrat-Black', sans-serif;
-    /* Add fallback fonts after your custom font name */
-  }
-</style>
-
 
 <div align="center">
 <h1>Welcomify</h1>
